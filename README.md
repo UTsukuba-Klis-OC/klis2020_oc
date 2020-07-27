@@ -9,8 +9,8 @@ This is UTsukuba, KLIS OpenCampus 2020 Special Website. Developing the website a
 - KLIS - http://klis.tsukuba.ac.jp/guidance_eng.html
 
 ## Usage
-if you installed ```node.js``` and ```npm```//
-you can//
+if you installed ```node.js``` and ```npm```,\n
+you can
 ``` 
 npm install @vue/cli
 npm run serve
