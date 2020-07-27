@@ -5,6 +5,7 @@
 This is UTsukuba, KLIS OpenCampus 2020 Special Website. Developing the website and operating is KLIA Open Campus committee. Welcome to PR everyone and Join us from KLIS Undergraduate!
 
 ## About
+- KLIS OC commitee - http://klis.tsukuba.ac.jp/klis_students/
 - UTsukuba - http://www.tsukuba.ac.jp/english/
 - KLIS - http://klis.tsukuba.ac.jp/guidance_eng.html
 
