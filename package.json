@@ -16,6 +16,7 @@
     "bootstrap-vue": "^2.15.0",
     "colorette": "^1.2.0",
     "core-js": "^3.6.5",
+    "granim": "^2.0.0",
     "vue": "^2.6.11",
     "vue-typer": "^1.2.0"
   },
