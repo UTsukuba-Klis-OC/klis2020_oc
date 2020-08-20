@@ -2,6 +2,7 @@
   <div id="app">
     <!-- HEADER -->
     <toptitle></toptitle>
+    <submit></submit>
     <primaryheader></primaryheader>
     <test></test>
 
@@ -15,18 +16,18 @@
 import toptitle from './components/Title.vue'
 import primaryheader from './components/Header.vue'
 import test from './components/Topic.vue'
+import submit from './components/Submit.vue'
 
 
 export default {
   name: 'App',
   components: {
     toptitle,
+    submit,
     primaryheader,
     test
   },
 }
-
-
 
 
 </script>
@@ -41,9 +42,8 @@ export default {
   margin-top: 0;
 }
 
-.kotei {
-  z-index: 1000;
-  position: sticky;
+.modal-backdrop{
+   visibility:hidden!important;
 }
 
 

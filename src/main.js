@@ -15,9 +15,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 // VueTyper
 import VueTyperPlugin from 'vue-typer'
 
+//vue-thin-modal
+import VueThinModal from 'vue-thin-modal'
+
 // UseDeligate
 Vue.use(VueTyperPlugin)
 Vue.use(BootstrapVue)
+Vue.use(VueThinModal)
 
 library.add(faGlobe, faBlog, faBirthdayCake, faImage, faTwitter, faGithub, faHtml5, faCss3Alt, faJsSquare)
 
