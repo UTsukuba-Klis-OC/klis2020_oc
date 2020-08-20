@@ -8,18 +8,19 @@
         <h4 style="margin:1em 0; color:paleturquoise" class="lightcoral">8月30日開催</h4>
         <p class="white shadow">Zoomによるオンライン学生相談を行います。聞きたいこと，相談したいことがある方はぜひお申し込みください！</p>
         
-        <img style="margin-top:2em;" class="shadow" alt="zoom logo" width="70px" src="../assets/zoom_icon.png">
+        <img style="margin-top:3em;" class="shadow" alt="zoom logo" width="70px" src="../assets/zoom_icon.png">
         <br>
         <a href="https://apps.apple.com/jp/app/zoom-cloud-meetings/id546505307"><img  alt="appstore" height="40px" src="../assets/appstore.svg"></a>
         <a href="https://play.google.com/store/apps/details?id=us.zoom.videomeetings&hl=ja"><img  alt="google play" height="60px" src="../assets/play.png"></a>
 
-        <h4 style="margin-top:2em;" class="shadow white">予約カレンダー</h4>
+        <h4 style="margin-top:3em;" class="shadow white">予約カレンダー</h4>
         <p class="shadow white">予約カレンダーか予約ボタンからいますぐ簡単予約！</p>
+        <p class="shadow white" style="font-size:5pt;">*Microsoft InternetExploerには非対応。Chrome/Edge等をお使いください。利用は無料，通信料等がかかる場合があります。</p>
         <iframe src="https://coubic.com/klis2020/widget/calendar?from_pc=listMonth&from_sp=listMonth" style="border: none; width: 100%; height: 600px;"></iframe>
         <a class="yoyaku" href="https://coubic.com/klis2020"><div class="yoyaku">オンライン相談<br>今すぐ予約！</div></a>
 
         </div>
-        <button class="cb button white" type="button" @click="close">×</button>
+        <button class="cb button" type="button" @click="close">×</button>
       </div>
     </modal>
   </div>
@@ -79,8 +80,8 @@ export default {
     top:0px;
     z-index: 10;
     /* background: rgba(22,22,22, 0.5); */
-    background-color: rgba(0,0,0, 0.7);
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    background-color: rgba(0,0,0, 0.8);
+    /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png"); */
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     padding: 10vh 5vw;
     overflow: auto;
@@ -88,7 +89,7 @@ export default {
 }
 .cb{
     border-style: none;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(255,255,255, 0.8);
     padding: 18px 25px;
     border-radius:50%;
     outline:0;
@@ -97,8 +98,8 @@ export default {
 }
 .cb:hover{
     transition: 0.5s;
-    background: whitesmoke;
-    color: black!important;
+    background: black;
+    color: whitesmoke!important;
 }
 
 .button{
@@ -124,7 +125,8 @@ export default {
 }
 
 .sbimg{
-     width: 40vw!important;
+  height: 150px;
+  min-height: 10vh!important;
 }
 </style>
 
