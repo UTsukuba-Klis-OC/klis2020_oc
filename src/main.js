@@ -16,7 +16,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueTyperPlugin from 'vue-typer'
 
 //vue-thin-modal
-import VueThinModal from 'vue-thin-modal'
+// import VueThinModal from 'vue-thin-modal'
+import VModal from 'vue-js-modal'
 
 // analytics
 import VueAnalytics from 'vue-analytics'
@@ -26,7 +27,8 @@ import VueCookieAcceptDecline from 'vue-cookie-accept-decline'
 // UseDeligate
 Vue.use(VueTyperPlugin)
 Vue.use(BootstrapVue)
-Vue.use(VueThinModal)
+Vue.use(VModal)
+// Vue.use(VueThinModal)
 Vue.use(VueAnalytics, {
   id: 'UA-176003545-1'
 })
