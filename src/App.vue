@@ -2,7 +2,8 @@
   <div id="app">
     <!-- HEADER -->
     <toptitle></toptitle>
-    <submit></submit>
+    <button class="sbutton" type="button" @click="showModal = true"><img class="sbimg" src="./assets/submitbutton.png"></button>
+    <submit v-if="showModal" @close="showModal = false"></submit>
     <primaryheader></primaryheader>
     <test></test>
 
@@ -16,11 +17,17 @@
 import toptitle from './components/Title.vue'
 import primaryheader from './components/Header.vue'
 import test from './components/Topic.vue'
-import submit from './components/Submit.vue'
+// import submit from './components/Submit.vue'
+import submit from './components/Submit_s.vue'
 
 
 export default {
   name: 'App',
+  data() {
+        return {
+            showModal: false
+        }
+  },
   components: {
     toptitle,
     submit,
@@ -66,6 +73,35 @@ export default {
             }
             }   
     }
+
+// butto
+.button{
+    z-index: 0;
+    position: fixed;
+    top:2vh;
+    right: 30px;
+}
+
+.sbutton{
+    position: fixed;
+    bottom: 90px; 
+    right: 5px;  
+    border-style: none;
+    background:rgba(0,0,0,0);
+    z-index: 10;
+    outline:0;
+}
+
+.sbutton:hover{
+  filter: contrast(200%);
+  transition: 80ms;
+}
+
+.sbimg{
+  height: 130px;
+  min-height: 10vh!important;
+}
+
 
 
 </style>
