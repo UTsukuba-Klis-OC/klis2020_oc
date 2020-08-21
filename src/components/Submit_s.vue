@@ -8,6 +8,7 @@
         <h4 style="margin:1em 0; color:paleturquoise" class="lightcoral">8月30日開催</h4>
         <p class="white shadow">Zoomによるオンライン学生相談を行います。聞きたいこと，相談したいことがある方はぜひお申し込みください！</p>
         <div class="yoyaku"><a href="#cal">オンライン相談<br>今すぐ予約！</a></div>
+        <h5 style="margin-top:2em;" class="shadow white">学生相談のSTEP</h5><ul class="shadow white" style="list-style: none; text-align:left;"><li><b>STEP1</b> 事前登録</li><li><b>STEP2</b> Zoomをダウンロード!</li><li><b>STEP3</b> 送られたURLで入室!</li></ul>
         
         <img style="margin-top:3em;" class="shadow" alt="zoom logo" width="70px" src="../assets/zoom_icon.png">
         <br>
