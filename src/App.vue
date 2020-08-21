@@ -27,12 +27,16 @@ export default {
     primaryheader,
     test
   },
+  mounted() {
+    this.$ga.page('/pagename');
+  },
+  
 }
 
 
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,6 +49,23 @@ export default {
 .modal-backdrop{
    visibility:hidden!important;
 }
+ .vue-typer {
+            display: inline-block;
+            z-index: 10;
+            .custom.char {
+                 color:whitesmoke;
+                 font-family: serif;
+                 font-weight: 600;
+                 filter: drop-shadow(0 0 0.2rem white);
+                 font-size: 100%;
+                 
+             }      
+            .custom.caret{
+              &.selecting{
+               color: whitesmoke;
+            }
+            }   
+    }
 
 
 </style>
