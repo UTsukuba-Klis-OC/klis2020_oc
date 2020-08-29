@@ -6,6 +6,7 @@
             <div class="hyoushi">
                 <img alt="klis oppencampus 2020 logo" class="b-logo d-inline-block align-top"
                     src="../assets/utlogo.svg">
+                <!-- <button class="hp-l" src="">学類ホームページ</button> -->
             </div>
             <div class="typer">
                 <vue-typer :text='["KLIS OPEN CAMPUS ONLINE 2020","2020.8.30 ONAIR"]' :repeat='0' :shuffle='false'
@@ -72,7 +73,7 @@
             z-index: 10;
             display: block;
             position: relative;
-            height: 90vh!important;
+            height: 100vh!important;
         }
 
         #granim-canvas {
@@ -81,6 +82,8 @@
             z-index: 0;
             position: absolute;
             display: block;
+            // width: 80vw;
+            margin:0 auto;
         }
         .schedule{
             color:whitesmoke;
@@ -97,6 +100,23 @@
             display: block;
             /* text-align: left; */
             margin: 0 2vw;
+        }
+
+        .hp-l{
+            position: fixed;
+            top:0px;
+            right: 0px;
+            background: rgba($color: #fff, $alpha: .3);
+            color: white;
+            border-style: none;
+             outline:0;
+             font-size: 11pt;
+             padding:0 10px;
+            }
+        .hp-l:hover{
+            background: rgba($color: #fff, $alpha: .8);
+            transition: 0.3s;
+            color: rgb(36, 163, 172);
         }
 
         .b-logo {
@@ -122,7 +142,7 @@
 
         .view {
             height: 100vh;
-            margin-bottom: 10vh !important;
+            margin-bottom: 0 !important;
             padding-bottm: 10vh !important;
         }
 </style>

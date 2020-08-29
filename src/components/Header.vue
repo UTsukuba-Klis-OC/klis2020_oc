@@ -9,14 +9,21 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#">Home</b-nav-item>
-        <b-nav-item href="#" disabled>About</b-nav-item>
+        <b-nav-item href="#top">Home</b-nav-item>
+        <b-nav-item href="#about">About</b-nav-item> 
+        <!-- <b-nav-item-dropdown dropup text="about" right>
+          <b-dropdown-item href="#">KLISとは？</b-dropdown-item>
+          <b-dropdown-item href="#">学び</b-dropdown-item>
+          <b-dropdown-item href="#"></b-dropdown-item> 
+        </b-nav-item-dropdown> -->
 
-        <b-nav-item-dropdown text="Contents" disabled>
+        <b-nav-item href="#" disabled>Movie</b-nav-item>
+         <b-nav-item href="#" disabled>Live</b-nav-item>
+         <!-- <b-dropdown>
           <b-dropdown-item href="#">Movie</b-dropdown-item>
           <b-dropdown-item href="#">Live</b-dropdown-item>
-          <b-dropdown-item href="#">Web Contents</b-dropdown-item>
-        </b-nav-item-dropdown>
+          <b-dropdown-item href="#">Web Contents</b-dropdown-item> 
+         </b-dropdown> -->
 
         <b-nav-item href="#" disabled>Contact</b-nav-item>
         <b-nav-item href="#" disabled>Others</b-nav-item>
