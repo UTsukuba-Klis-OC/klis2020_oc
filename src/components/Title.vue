@@ -134,7 +134,7 @@
             padding: 3em 5vw; 
             display: block;
             /* text-align: left; */
-            background-color: rgba(248, 114, 219, 0.473);
+            background-color: rgba(255, 255, 255, 0.61);
             border-radius:64% 36% 20% 80% / 38% 31% 69% 62%;
 
             /* border-radius: 20px; */

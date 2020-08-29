@@ -6,6 +6,7 @@
     <submit v-if="showModal" @close="showModal = false"></submit>
     <primaryheader></primaryheader>
     <test id="about"></test>
+    <movie id="movie"></movie>
 
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -19,6 +20,7 @@ import primaryheader from './components/Header.vue'
 import test from './components/Topic.vue'
 // import submit from './components/Submit.vue'
 import submit from './components/Submit_s.vue'
+import movie from './components/Movie.vue'
 
 
 export default {
@@ -32,7 +34,8 @@ export default {
     toptitle,
     submit,
     primaryheader,
-    test
+    test,
+    movie
   },
   mounted() {
     this.$ga.page('/pagename');
@@ -60,7 +63,7 @@ export default {
             display: inline-block;
             z-index: 10;
             .custom.char {
-                 color:whitesmoke;
+                 color:rgba(255, 1, 158, 0.623);
                  font-family: serif;
                  font-weight: 600;
                  filter: drop-shadow(0 0 0.2rem white);

@@ -17,7 +17,7 @@
           <b-dropdown-item href="#"></b-dropdown-item> 
         </b-nav-item-dropdown> -->
 
-        <b-nav-item href="#" disabled>Movie</b-nav-item>
+        <b-nav-item href="#movie">Movie</b-nav-item>
          <b-nav-item href="#" disabled>Live</b-nav-item>
          <!-- <b-dropdown>
           <b-dropdown-item href="#">Movie</b-dropdown-item>
@@ -26,7 +26,7 @@
          </b-dropdown> -->
 
         <b-nav-item href="#" disabled>Contact</b-nav-item>
-        <b-nav-item href="#" disabled>Others</b-nav-item>
+        <b-nav-item href="#" disabled>More</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
