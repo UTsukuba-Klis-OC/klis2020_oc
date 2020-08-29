@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <!-- HEADER -->
-    <toptitle></toptitle>
+    <toptitle id="top"></toptitle>
     <button class="sbutton" type="button" @click="showModal = true"><img class="sbimg" src="./assets/submitbutton.png"></button>
     <submit v-if="showModal" @close="showModal = false"></submit>
     <primaryheader></primaryheader>
-    <test></test>
+    <test id="about"></test>
 
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -76,7 +76,7 @@ export default {
 
 // butto
 .button{
-    z-index: 0;
+    z-index: 9999;
     position: fixed;
     top:2vh;
     right: 30px;
