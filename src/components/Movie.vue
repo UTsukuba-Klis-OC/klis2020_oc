@@ -10,18 +10,18 @@
 
         <b-container class="movie-gal">
         <b-form-row md="auto" xs="12">
-        <b-col><iframe  src="https://www.youtube.com/embed/4zEaN6-jSdw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col><iframe src="https://www.youtube.com/embed/B-PKg8WaaMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col xs="12"><iframe src="https://www.youtube.com/embed/PJX7RcN6JpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col xs="12"><iframe src="https://www.youtube.com/embed/4wuJqok3oeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe  src="https://www.youtube.com/embed/4zEaN6-jSdw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/B-PKg8WaaMA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/PJX7RcN6JpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/4wuJqok3oeU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
         </b-form-row>
 
         <p class="cen-text" style="font-size:24pt;font-weight:100;margin-bottom:2px;">講義＆説明系</p>
         <b-form-row class = "justify-content-md-center">
-        <b-col xs="12"><iframe  src="https://www.youtube.com/embed/jtiaKHiGVTg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col xs="12"><iframe src="https://www.youtube.com/embed/1BLI8Dw3OKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col xs="12"><iframe src="https://www.youtube.com/embed/bLn7ZOaf8HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
-        <b-col xs="12"><iframe src="https://www.youtube.com/embed/QEnbgouyo8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe  src="https://www.youtube.com/embed/jtiaKHiGVTg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/1BLI8Dw3OKA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/bLn7ZOaf8HQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
+        <b-col sm="12" md="3"><iframe src="https://www.youtube.com/embed/QEnbgouyo8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>
         </b-form-row>
         </b-container>
 
