@@ -15,20 +15,28 @@
                 </vue-typer>
             </div>
 
+           
             <div class="schedule">
-                <h3>Movie Contents</h3>
+                <iframe style="margin-left:20px;" min-width="300px" src="https://www.youtube.com/embed/vq6n-UlyBAI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                <!-- <h3>Movie Contents</h3>
                 <ul style="list-style: none;">
                     <li>学類プロモーションビデオ</li> 
                     <li>ビブリオバトル説明</li>
                     <li>模擬講義</li>
                     <li>学生へのインタビュー</li>
                     <li>キャンパスツアー</li>
-                </ul>
+                </ul> -->
                 <h3>Live Session</h3>
                 <ul style="list-style: none;">
-                    <li>スチューデントトーク</li> 
-                    <li>学生相談</li>
+                    <li>スチューデントトーク放送中！</li>
+                    <li>10:00~ / 13:00~</li> 
                 </ul>
+                <h3>学生相談</h3>
+                <ul style="list-style: none;">
+                    <li>学生相談</li>
+                    <li>当日も受け付け中！予約ボタンから今すぐ相談。</li>
+                </ul>
+
                 <p style="color:pink; font-weight:bold;">コンテンツ制作 & 更新中！</p>
             </div>
         </div>
@@ -73,12 +81,12 @@
             z-index: 10;
             display: block;
             position: relative;
-            height: 100vh!important;
+            height: 110vh!important;
         }
 
         #granim-canvas {
             width: 100%;
-            height: 100%;
+            height: 110%;
             z-index: 0;
             position: absolute;
             display: block;
@@ -141,7 +149,7 @@
         }
 
         .view {
-            height: 100vh;
+            height: 110vh;
             margin-bottom: 0 !important;
             padding-bottm: 10vh !important;
         }
