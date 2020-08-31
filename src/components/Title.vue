@@ -51,6 +51,7 @@
                 element: '#granim-canvas',
                 name: 'granim',
                 opacity: [1, 1],
+                
                 states: {
                     'default-state': {
                         gradients: [
