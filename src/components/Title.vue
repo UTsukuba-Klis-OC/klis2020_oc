@@ -17,7 +17,8 @@
 
            
             <div class="schedule">
-                <iframe style="margin-left:20px;" min-width="300px" src="https://www.youtube.com/embed/vq6n-UlyBAI?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                <b-row>
+                <b-col md="12" ms="12"><iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/oUNOLaQqMXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></b-col>              
                 <!-- <h3>Movie Contents</h3>
                 <ul style="list-style: none;">
                     <li>学類プロモーションビデオ</li> 
@@ -26,18 +27,10 @@
                     <li>学生へのインタビュー</li>
                     <li>キャンパスツアー</li>
                 </ul> -->
-                <h3>Live Session</h3>
-                <ul style="list-style: none;">
-                    <li>スチューデントトーク放送中！</li>
-                    <li>10:00~ / 13:00~</li> 
-                </ul>
-                <h3>学生相談</h3>
-                <ul style="list-style: none;">
-                    <li>学生相談</li>
-                    <li>当日も受け付け中！予約ボタンから今すぐ相談。</li>
-                </ul>
-
-                <p style="color:pink; font-weight:bold;">コンテンツ制作 & 更新中！</p>
+                </b-row>
+                <h3>Live Session Archive</h3>
+                <p style="color:pink; font-weight:bold; font-size:14pt;">2020年度のオープンキャンパスは終了しました。<br>アーカイブコンテンツ更新中！。
+                </p>
             </div>
         </div>
     </div>
@@ -95,11 +88,11 @@
             margin:0 auto;
         }
         .schedule{
+            display:inline-block;
             color:whitesmoke;
-            margin: 3em 0 0 0;
-            padding:0 25vw 0 0;
+            margin: 5em auto 0 auto;
+            padding:0 15px 0 15px;
             text-align:right;
-            border-radius: 20px;
             font-size: 90%;
             filter: drop-shadow(0 0 0.1rem black);
 

@@ -18,15 +18,14 @@
         </b-nav-item-dropdown> -->
 
         <b-nav-item href="#movie">Movie</b-nav-item>
-         <b-nav-item href="#" disabled>Live</b-nav-item>
+         <b-nav-item href="#top">Live</b-nav-item>
          <!-- <b-dropdown>
           <b-dropdown-item href="#">Movie</b-dropdown-item>
           <b-dropdown-item href="#">Live</b-dropdown-item>
           <b-dropdown-item href="#">Web Contents</b-dropdown-item> 
          </b-dropdown> -->
 
-        <b-nav-item href="#" disabled>Contact</b-nav-item>
-        <b-nav-item href="#" disabled>More</b-nav-item>
+        <b-nav-item href="#inf">Information</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

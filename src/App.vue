@@ -7,6 +7,7 @@
     <primaryheader></primaryheader>
     <test id="about"></test>
     <movie id="movie"></movie>
+    <inf id="inf"></inf>
 
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -21,6 +22,7 @@ import test from './components/Topic.vue'
 // import submit from './components/Submit.vue'
 import submit from './components/Submit_s.vue'
 import movie from './components/Movie.vue'
+import inf from './components/Information.vue'
 
 
 export default {
@@ -35,7 +37,8 @@ export default {
     submit,
     primaryheader,
     test,
-    movie
+    movie,
+    inf
   },
   mounted() {
     this.$ga.page('/pagename');
@@ -93,6 +96,7 @@ export default {
     background:rgba(0,0,0,0);
     z-index: 10;
     outline:0;
+    z-index: 9999;
 }
 
 .sbutton:hover{
@@ -104,6 +108,7 @@ export default {
   height: 130px;
   min-height: 10vh!important;
 }
+
 
 
 

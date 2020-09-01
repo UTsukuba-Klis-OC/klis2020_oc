@@ -4,7 +4,7 @@
     <transition name="submit">
       <div class="overlay" @click="$emit('close')">
       <div class="panel" @click.stop>
-        <h2 class="title white shadow">Zoom学生相談<br>事前登録</h2>
+        <h2 class="title white shadow">※終了<br>Zoom学生相談<br>事前登録</h2>
         <h4 style="margin:1em 0; color:paleturquoise" class="lightcoral">8月30日開催</h4>
         <p class="white shadow">Zoomによるオンライン学生相談を行います。聞きたいこと，相談したいことがある方はぜひお申し込みください！</p>
         <div class="yoyaku"><a href="#cal">オンライン相談<br>今すぐ予約！</a></div>
