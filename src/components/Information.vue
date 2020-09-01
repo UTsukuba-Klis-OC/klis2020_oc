@@ -1,6 +1,6 @@
 <template>
     <div class="view">
-        <div class="Movie-class">
+        <div class="inf-class">
             <b-row class="justify-content-md-center about">
                 <h2 class="cen-text">Information</h2>
                 <p class="cen-text">その他の情報</p>
@@ -57,7 +57,7 @@
                     <b-col md="12" sm="12"><a
                             href="https://github.com/UTsukuba-Klis-OC/klis2020_oc/blob/master/LICENSE">OPEN MIT
                             LICENSE</a></b-col>
-                    <b-col md="12" sm="12"><a
+                    <b-col style="margin-top:2em;" md="12" sm="12"><a
                             href="https://policies.google.com/privacy?hl=ja">Google Analytics プライバシーポリシー</a></b-col>
                 </b-form-row>
 
@@ -149,6 +149,24 @@
         }
     }
 
+    a:not(.buttonton){
+        filter:drop-shadow(0 0 .1rem black);
+        display: inline-block;
+        color:white;
+        font-weight:600;
+        font-size:13pt;
+        background:rgba(51, 51, 51, 0.3);
+        padding:10px;
+        border-radius: 10px;
+        margin-top:1em !important;
+        transition: 200ms;
+        &:hover{
+            background:white;
+            color:rgb(0, 177, 177);
+            text-decoration: none; 
+        }
+    }
+
     .bimg {
         border-style: none !important;
         overflow: hidden;
@@ -168,7 +186,7 @@
 
     }
 
-    .Movie-class {
+    .inf-class {
         padding-top: 2em;
         padding-bottom: 8em;
         width: 100%;

@@ -29,7 +29,7 @@
                 </ul> -->
                 </b-row>
                 <h3>Live Session Archive</h3>
-                <p style="color:pink; font-weight:bold;">2020年度のオープンキャンパスは終了しました。引きつづきアーカイブ・ムービー・Webコンテンツは更新いたします。
+                <p style="color:pink; font-weight:bold; font-size:14pt;">2020年度のオープンキャンパスは終了しました。<br>アーカイブコンテンツ更新中！。
                 </p>
             </div>
         </div>
